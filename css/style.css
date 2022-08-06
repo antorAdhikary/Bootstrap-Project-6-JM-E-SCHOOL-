@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+header {
+    margin-bottom: 77px;
+}
+nav {
+    background: #e7fff2;
+    
+}
+.navbar-img {
+    width: 200px;
+}
+nav a {
+    font-size: 19px;
+    color: #000;
+    font-weight: 500;
+}
+.hero-btn {
+    color: white;
+    background: #2B7A0B;
+    padding: 8px 25px;
+    border-radius: 35px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.hero-btn:hover {
+    opacity: 0.8;
+    color: rgb(162, 167, 171);
+}
+
+/* FRONT PAGE */
+
+.front-page {
+    background: #e7fff2;  
+}
+.front-headline {
+    font-size: 60px;
+}
+.front-page a:hover {
+    text-decoration: none;
+}
+.front-headline span {
+    color: #417f11;
+}
+
+/* TOP CARDS */
+
+.cards {
+    height: 280px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+}
+.cards:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+    
+}
+.cards-decoration {
+    text-decoration: none;
+    color: #000;
+}
+.cards-decoration:hover {
+    text-decoration: none;
+    color: #000;
+}
+.cards .book-img {
+    width: 65px;
+}
+.cards img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+/* BOTTOM CARDS */
+.cardss {
+    min-height: 470px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+}
+.cardss:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 15px;
+    
+}
+.cardss img {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* TESTIMONIAL */
+
+.test-img {
+    width: 120PX;
+}
+
+
+/* FOOTER */
+footer {
+    background: #000;
+}
+footer a {
+    font-size: 18px;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+.my-profile a{
+    color: #F7EC09;
+}
